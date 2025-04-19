@@ -107,3 +107,7 @@ npm create vite@latest
 - data-test-id per `jsx` or html tag
 
 ## Various Source Used
+
+- https://gist.github.com/andreasonny83/b24e38b7772a3ea362d8e8d238d5a7bc
+- https://vite.dev/guide/
+- https://testing-library.com/docs/react-testing-library/intro
