@@ -1,10 +1,14 @@
 # Overview
 
 - See [project_notes](/docs/project-notes.md)
-- See [persona_notes](/docs/personal-notes.md)
+- See [personal_notes](/docs/personal-notes.md)
+- See [planning](/docs/planning.md)
 
 > [!IMPORTANT]
 > Everything below this line is boiler plate from create vite create scaffolds
+
+<details>
+<summary>Click to expand</summary>
 
 # React + TypeScript + Vite
 
@@ -60,3 +64,5 @@ export default tseslint.config({
   },
 });
 ```
+
+</details>

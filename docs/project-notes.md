@@ -1,30 +1,14 @@
 # Overview
 
-## Planning
-
-> General Overview
-
-- max time 2.5 hours
-
-- [x] Read and Plan (< 30 min)
-- Repo Setup (< 30 min)
-- Notes (>= 30 min)
-- Component Setup (>= 30 min)
-- proofread last ( 15 min )
-
-- flex (15 min) -- for things that take longer than expected
-
-- [ ] Task -> 🗒️ split panning and ntoes if they're coherent
-
 ## Component Library Repo Setup
 
-- [x] Task -> 🗒️ do the standard vit tuturoial
+- [x] Task -> 🗒️ do the standard vite tutorial
 
-### Must Have
+### Must Have Installed
 
 - [x] vite setup and running
 - [x] Readme with how to run things
-- React testing library
+- [x] React testing library
 
 ### Setup - Completed
 
@@ -39,7 +23,7 @@
 - These have been added to `./github`
 - They were AI Generated
 
-A few things I would in a PR template
+A few things I would include in a PR template
 
 - link to a ticket or issue system. Example: JIRA, ADO, github issues
 - PR Title with conventional Commit Sytnax
@@ -52,7 +36,7 @@ A few things I would in a PR template
 
 ### Explanation - Not Completed
 
-- eslint - maybe drop a standard config into the repo anyway
+- eslint - available from the `npm create vite@latest` command but unedited
 - .env files
 
 #### Folder Structure
@@ -62,11 +46,13 @@ A few things I would in a PR template
 - `consts/` this folder contains files with consts supported ideally by a linter rule recommending no consts in file
   - files in this folder would generally correspond to values used across components
   - an alternate approach would be to have each reusable component have its own consts folder/file
+- `tests/`
+- `components`
 
 #### Build System
 
 > [!NOTE]
-> I consider the entire ci, PR, cd process part of developer tooling. Dependign on team structure that is not always the case, but I include it hear with some thoughts about how to use it as part of the dev experience.
+> I consider the entire ci, PR, cd process part of developer tooling. Depending on team structure that is not always the case, but I include it hear with some thoughts about how to use it as part of the dev experience. (NOT COMPLETED)
 
 - `ci.ymal`
 - `release.ymal`
@@ -78,13 +64,11 @@ A few things I would in a PR template
 
 ```bash
 
-npm create vite@latest
-
-- choose react
-- choose typescript
+# TODO:  add npm install commands
+# TODO add typscript install commands
 ```
 
-### Nice To had
+### Nice To have
 
 - [ ] Task -> 🗒️ write up and include your web dev vscode profile
 - [ ] Read -> 📖 this looks really nice https://github.com/bartstc/vite-ts-react-template
@@ -103,22 +87,18 @@ npm create vite@latest
 
 ### Personal Opinions
 
-> Decide Wether to include these based on clarity
+> Things I could say more about
 
 - No dependencies
 - Story book is good
-- Don't force vscode on people (decide if you wnat a .vscode file or note)
 
 ## Component Build
 
 ### Tasking
 
-- [ ] Task -> 🗒️ run vite locally
-- [ ] Task -> 🗒️ run vite tests locally
-
-- [ ] Task -> 🗒️ make a component
-
-> Probably to use the OOB vite setup. (Would rather setup storybook)
+- [x] Task -> 🗒️ run vite locally
+- [x] Task -> 🗒️ make a component
+- [ ] Task -> 🗒️ run vite tests locally (FAILED)
 
 ### Components
 
@@ -137,3 +117,5 @@ npm create vite@latest
 - https://vite.dev/guide/
 - https://testing-library.com/docs/react-testing-library/intro
 - https://testing-library.com/docs/react-testing-library/example-intro/
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
