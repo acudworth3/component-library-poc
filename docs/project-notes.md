@@ -55,6 +55,14 @@ A few things I would in a PR template
 - eslint - maybe drop a standard config into the repo anyway
 - .env files
 
+#### Folder Structure
+
+> Misc choices
+
+- `consts/` this folder contains files with consts supported ideally by a linter rule recommending no consts in file
+  - files in this folder would generally correspond to values used across components
+  - an alternate approach would be to have each reusable component have its own consts folder/file
+
 #### Build System
 
 > [!NOTE]
@@ -128,3 +136,4 @@ npm create vite@latest
 - https://gist.github.com/andreasonny83/b24e38b7772a3ea362d8e8d238d5a7bc
 - https://vite.dev/guide/
 - https://testing-library.com/docs/react-testing-library/intro
+- https://testing-library.com/docs/react-testing-library/example-intro/
