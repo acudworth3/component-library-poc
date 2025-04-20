@@ -1,3 +1,9 @@
+
+import { describe, beforeAll, expect, vi, test } from 'vitest'
+import { render, screen } from '@testing-library/react'
+import { Scenario } from '../components/scenario';
+
+
 describe('Modal', () => {
   const mockClose = vi.fn();
 
