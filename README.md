@@ -5,7 +5,7 @@
 - See [planning](/docs/planning.md)
 
 > [!IMPORTANT]
-> Everything below this line is boiler plate from create vite create scaffolds
+> Everything below this line is boiler plate from create vite create scaffolds.
 
 <details>
 <summary>Click to expand</summary>
