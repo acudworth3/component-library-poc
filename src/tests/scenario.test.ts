@@ -12,7 +12,7 @@ describe('Modal', () => {
   });
 
   test('renders modal with expected controls', () => {
-    render(<Scenario />);
+    render(<Scenario/>);
     expect(screen.getByRole('dialog')).toBeInTheDocument();
     expect(screen.getByRole('heading')).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /close/i })).toBeInTheDocument();
@@ -33,7 +33,7 @@ describe('Modal', () => {
     });
 
     test('calls onClock action when clicking outside of the modal', async () => {
-      const { user } = renderWithUser(<Scenario data-testid="mockId" onClose = { mockClose } />);
+      const { user } = renderWithUser(<Scenario dataTestId="mockId" onClose = { mockClose } />);
       const scrimElement = screen.getByTestId('mockId');
       await user.click(scrimElement);
       expect(mockClose).toHaveBeenCalledTimes(1);
