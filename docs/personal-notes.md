@@ -13,6 +13,7 @@
 - I've tried to note where I used them
 
 - PR and ISSUE tempaltes were generated this way
+- I tried to have it help with adding imports to the test file but ended up doing it manually
 
 ## Stopped
 
