@@ -34,7 +34,17 @@
 - a js template is added
 - something like `.env.local` would be added eventually as well
 
-### Vite Setup
+#### PR and Issue templates
+
+- These have been added to `./github`
+- They were AI Generated
+
+A few things I would in a PR template
+
+- link to a ticket or issue system. Example: JIRA, ADO, github issues
+- PR Title with conventional Commit Sytnax
+
+#### Vite Setup
 
 > For the sake of time the standard vite Tutorial Will be followed
 
@@ -42,12 +52,19 @@
 
 ### Explanation - Not Completed
 
-- estlint - maybe drop a standard config into the repo anyway
+- eslint - maybe drop a standard config into the repo anyway
 - .env files
 
-- .github folder
-  - include a pr tempalte
-  - include a `ci.yml`
+#### Build System
+
+> [!NOTE]
+> I consider the entire ci, PR, cd process part of developer tooling. Dependign on team structure that is not always the case, but I include it hear with some thoughts about how to use it as part of the dev experience.
+
+- `ci.ymal`
+- `release.ymal`
+- `cd-from-release.ymal`
+
+-
 
 #### Install Script
 
