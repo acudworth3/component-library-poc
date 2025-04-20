@@ -3,6 +3,7 @@
 > some thoughts along the way
 
 - Ran into some trouble on vite create moving it to the top of the repo
+- the git history reflects my workflow pretty cleanly
 
 ## AI tool
 
@@ -12,3 +13,7 @@
 - I've tried to note where I used them
 
 - PR and ISSUE tempaltes were generated this way
+
+## Stopped
+
+> Stopped after
