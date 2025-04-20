@@ -4,6 +4,7 @@ import { render, screen } from '@testing-library/react'
 import { Scenario } from '../components/scenario';
 
 
+
 describe('Modal', () => {
   const mockClose = vi.fn();
 
