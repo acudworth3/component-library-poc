@@ -18,13 +18,13 @@
 
 ## Component Library Repo Setup
 
-- [ ] Task -> 🗒️ do the standard vit tuturoial
+- [x] Task -> 🗒️ do the standard vit tuturoial
 
 ### Must Have
 
-- vite setup and running
+- [x] vite setup and running
+- [x] Readme with how to run things
 - React testing library
-- Readme with how to run things
 
 ### Setup - Completed
 
